@@ -66,6 +66,6 @@ Now we want to test that the process works.
  - add `smtpd` test framework for debugging
  - work on a better selection algorithm
 
-[Google Security]: https://myaccount.google.com/u/1/security
+[Google Security]: https://myaccount.google.com/u/0/security
 [sending emails with Python]: https://realpython.com/python-send-email/
 [Quickstart Guide]: https://developers.google.com/gmail/api/quickstart/python
