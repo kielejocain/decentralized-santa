@@ -1,4 +1,4 @@
-#Decentralized Santa
+# Decentralized Santa
 
 This repo is intended to help you run a secret santa over distance without
 one person knowing who get everyone else (including who got them!).
@@ -15,10 +15,8 @@ particular, click the `Enable the Gmail API` button.  You'll follow a couple
 prompts to set up a Cloud Platform project, and in particular generate a
 `credentials.json` file that will need to be put in this project directory.
 
-**DO NOT UPLOAD THIS FILE ANYWHERE.**
+**DO NOT UPLOAD THE CREDENTIALS FILE ANYWHERE.**
 
 
-
-## Links
 
 [Quickstart Guide]: https://developers.google.com/gmail/api/quickstart/python
