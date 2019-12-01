@@ -1,6 +1,6 @@
 import getpass
 import random
-import smtplib
+import smtplib, ssl
 
 
 class Person:
@@ -72,7 +72,6 @@ class Pool:
                 smtp.sendmail(gmail_user,person.email,email_text.format(
                     email=person.email, name=person.name, choice=person.choice.name
                     ))
-
 
     def select_for(self, member):
         succeeded, choice = member.choose()

@@ -3,6 +3,10 @@
 This repo is intended to help you run a secret santa over distance without
 one person knowing who get everyone else (including who got them!).
 
+**This doesn't work as intended yet!** You have to go to your [Google Security]
+settings and turn on `Less secure app access`.  This is the first thing I aim
+to change.
+
 Broadly speaking, we will follow this guide for [sending emails with Python].
 
 ## Requirements
@@ -56,5 +60,12 @@ participating in the process, so doesn't need a group label.
 
 Now we want to test that the process works.
 
+# TODO
+
+ - refactor script to use OAuth
+ - add `smtpd` test framework for debugging
+ - work on a better selection algorithm
+
+[Google Security]: https://myaccount.google.com/u/1/security
 [sending emails with Python]: https://realpython.com/python-send-email/
 [Quickstart Guide]: https://developers.google.com/gmail/api/quickstart/python
