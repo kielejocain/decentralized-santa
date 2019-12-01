@@ -3,6 +3,8 @@
 This repo is intended to help you run a secret santa over distance without
 one person knowing who get everyone else (including who got them!).
 
+Broadly speaking, we will follow this guide for [sending emails with Python].
+
 ## Requirements
 
  - Python 2.6 or greater (and pip)
@@ -19,4 +21,5 @@ prompts to set up a Cloud Platform project, and in particular generate a
 
 
 
+[sending emails with Python]: https://realpython.com/python-send-email/
 [Quickstart Guide]: https://developers.google.com/gmail/api/quickstart/python
